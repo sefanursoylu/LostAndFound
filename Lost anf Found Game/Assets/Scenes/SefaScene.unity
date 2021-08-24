@@ -392,8 +392,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charList: {fileID: 1283147012}
-  objectList: {fileID: 1855523686}
+  objectList: {fileID: 1855523687}
   ob: {fileID: 1379101588}
+  goOB: {fileID: 0}
 --- !u!1 &1855523686
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +424,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ebe06b807358c4281b61ee1ceea86b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customers: []
+  customers:
+  - {fileID: 4647098426099487452, guid: f0b2694c9e723be44b7f56865d164dc0, type: 3}
+  - {fileID: 5833024064102806081, guid: b75228bf6a795864a8f725d66643aa91, type: 3}
+  - {fileID: 2480010844004996467, guid: 0fae01b683b6f5e4781d273780aa3e3a, type: 3}
+  - {fileID: 2523849695556435887, guid: 7650a856c7f92604c9c38a45ebb6cd4a, type: 3}
+  - {fileID: 7929481244598993292, guid: 574f5a3c31388314fb286874449a2aba, type: 3}
 --- !u!4 &1855523688
 Transform:
   m_ObjectHideFlags: 0
