@@ -9,6 +9,7 @@ TagManager:
   - Object3
   - Object4
   - Object5
+  - Customer
   layers:
   - Default
   - TransparentFX

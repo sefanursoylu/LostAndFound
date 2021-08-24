@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class objectBehaviour : MonoBehaviour
 {
-    public GameObject customer;
+    private GameObject currentCustomer;
+    public currentCustomer customerChecker;
 
-   public void OnMouseOver()
+    public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0) && (gameObject.tag == customer.tag))
+        if (Input.GetMouseButtonDown(0) && (gameObject.tag == customerChecker.currentTag))
         {
             Debug.Log("Correct Object!");
         } 
         
-        if (Input.GetMouseButtonDown(0) && (gameObject.tag != customer.tag))
+        if (Input.GetMouseButtonDown(0) && (gameObject.tag != customerChecker.currentTag))
         {
             Debug.Log("Incorrect Object!");
         }
