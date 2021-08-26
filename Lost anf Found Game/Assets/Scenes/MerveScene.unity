@@ -3394,6 +3394,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6140995563435596556, guid: 36b24cfcaa12b2d4da578c618899da77,
         type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 6140995563435596556, guid: 36b24cfcaa12b2d4da578c618899da77,
+        type: 3}
       propertyPath: m_Name
       value: Instantiate
       objectReference: {fileID: 0}
@@ -3405,17 +3411,17 @@ PrefabInstance:
     - target: {fileID: 6140995563435596557, guid: 36b24cfcaa12b2d4da578c618899da77,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 6140995563435596557, guid: 36b24cfcaa12b2d4da578c618899da77,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6140995563435596557, guid: 36b24cfcaa12b2d4da578c618899da77,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -5.65
       objectReference: {fileID: 0}
     - target: {fileID: 6140995563435596557, guid: 36b24cfcaa12b2d4da578c618899da77,
         type: 3}
